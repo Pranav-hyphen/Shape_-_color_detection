@@ -1,0 +1,19 @@
+a for green
+b for blue
+c for red
+d for triangle
+e for quadrilateral
+f for circle
+
+
+a d = green triangle
+a e = green quadrilateral
+a f = green circle
+
+b d = blue triangle
+b e = blue quadrilateral
+b f = blue circle
+
+c d = red triangle
+c e = red quadrilateral
+c f = red circle
