@@ -48,7 +48,7 @@ def compare(x1,x2,x3):
 
 def main(i):
     print("This is for image ", i )
-    path = f"A:/Shape and color detection/{i}.jpg"
+    path = f"A:/Shape and color detection/Images/{i}.jpg"
     a,b,c,d,e,f = 0,0,0,0,0,0
     green = [0,255,0]
     blue = [255,0,0]
@@ -56,7 +56,6 @@ def main(i):
     white = [255,255,255]
 
     x1,image_mask,img = clr(green,path)
-    # x1 = 0 #conveyor green problem (remove if object not on conveyor)
     
     x2,image_mask1,img = clr(blue,path)
    
